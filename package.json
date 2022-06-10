@@ -1,11 +1,10 @@
 {
   "name": "hardhat-project",
-  "husky": { 
-    "hooks": { 
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS" 
-      }
-    },
-
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.0.2",
     "@commitlint/config-conventional": "^17.0.2",
@@ -24,5 +23,8 @@
   },
   "dependencies": {
     "dotenv": "^16.0.1"
+  },
+  "scripts": {
+    "prepare": "husky install"
   }
 }
