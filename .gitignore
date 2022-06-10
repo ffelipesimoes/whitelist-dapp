@@ -41,3 +41,8 @@ yarn.lock
 
 # vercel
 .vercel
+
+
+### NextJS ###
+# Next build dir
+.next/
