@@ -1,15 +1,25 @@
-# Basic Sample Hardhat Project
+![!Waitlist](./waiting-list.png)
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+# Whitelist Dapp
 
-Try running some of the following tasks:
+This project demonstrates a Waitlist Dapp where users can join us to wait to another step. This project can be used as base to NFTs Marketplaces, promotions pages, marketing iniciatives.
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+## Running the code
+
+### **FrontEnd**
+
+`git clone https://github.com/ffelipesimoes/whitelist-dapp.git WaitlistDapp`
+
+`cd WaitlistDapp`
+
+`yarn` - To install dependencies.
+
+`cd my-app`
+
+`yarn dev` - To run a Next.js application.
+
+### **Blockend**
+
+This project was deployed using Hardhat Devtool.
+
+STACK: HARDHAT, NEXT.JS, TYPESCRIPT, SOLIDITY, WEB3.JS,
